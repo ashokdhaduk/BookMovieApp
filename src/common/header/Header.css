@@ -1,0 +1,62 @@
+.header{
+    background-color: #222;
+    height: 36px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 32px;
+}
+
+.logo{
+    background-color: #ff7f7f;
+    height: 35px;
+    animation: rotation 8s infinite linear;
+    float: left;
+}
+
+@keyframes rotation {
+    from {
+      transform:rotateY(0deg)
+    }
+    to {
+      transform:rotateY(359deg)
+    }
+}
+.bookShow-btn{
+    background-color:#24a0ed;
+    height: 35px;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.header-btn{
+    color:default;
+    height: 35px;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.headerButtons{
+    float: right;
+}
+
+.add-btn {
+    background: #166596;
+    color: #fff;
+}
+
+.custom-btn {
+    padding: 10px;
+    border: none;
+    margin-right: 10px;
+    text-transform: uppercase;
+    width: 110px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    outline: none;
+}
+
+.subscriber-form{
+    margin-top: 20px;
+    text-align: center;
+}

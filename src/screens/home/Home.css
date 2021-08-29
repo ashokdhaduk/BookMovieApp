@@ -1,0 +1,43 @@
+.homeHeading{
+    background-color: #ff9999;
+    padding: 8px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.flex-container{
+    display: flex;
+    display:inline-block
+}
+
+.released-movies-container{
+    max-width: 76%;
+    margin: 16px;
+    float: left;
+}
+
+.filter-container{
+    max-width: 24%;
+    margin: 16px;
+    float: right;
+}
+
+.add-btn {
+    background: #166596; 
+    color: #fff;
+}
+
+.custom-btn {
+    padding: 10px;
+    border: none;
+    margin-right: 10px;
+    text-transform: uppercase;
+    width: 110px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    outline: none;
+}
+
+/* ::-webkit-scrollbar {
+    display: none;
+} */

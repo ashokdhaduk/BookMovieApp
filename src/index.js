@@ -4,6 +4,9 @@ import './index.css';
 import 'typeface-roboto';
 import registerServiceWorker from './registerServiceWorker';
 import Controller from './screens/Controller';
+import { BrowserRouter as Router } from 'react-router-dom';
+import {Provider} from "react-redux";
+import store from './MovieStore';
 
-ReactDOM.render(<Controller />, document.getElementById('root'));
+ReactDOM.render(<Provider store={store}><Router><Controller /></Router></Provider>, document.getElementById('root'));
 registerServiceWorker();

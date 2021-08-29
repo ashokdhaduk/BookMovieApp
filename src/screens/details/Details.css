@@ -1,0 +1,29 @@
+.back-btn{
+    margin-left: 24px;
+    margin-top: 8px;
+    margin-bottom: 0px;
+    height: 24px;
+    cursor: pointer;
+    
+}
+
+.flex-container{
+    display: flex;
+    margin:16px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.display-left-part{
+    width: 20%;
+}
+.display-middle-part{
+    width: 60%;
+}
+.display-right-part{
+    width: 20%;
+}
+
+.rating-bottom{
+    margin-bottom: 16px;
+}
